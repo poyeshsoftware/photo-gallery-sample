@@ -1,5 +1,9 @@
-$primary: grey;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
+
+$primary: gray;
 .app {
   background: $primary;
 }
