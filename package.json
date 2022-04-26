@@ -1,0 +1,22 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "A sample restful app made with vue3, tailwind, laravel-mix and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peyman Ghaderkourehpaz",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.43",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "vue-loader": "^17.0.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.31"
+  }
+}
