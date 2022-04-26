@@ -1,8 +1,10 @@
 import {createApp} from 'vue'
-import Alert from './components/Alert';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const app = createApp({})
 
-app.component('alert', Alert)
+app.component('site-header', Header)
+app.component('site-footer', Footer)
 
 app.mount('#app')
